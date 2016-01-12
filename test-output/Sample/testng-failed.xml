@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sample]" parallel="tests">
+  <parameter name="browser" value="FF"/>
+  <test name="FF Test(failed)" parallel="tests">
+    <parameter name="browser" value="FF"/>
+    <classes>
+      <class name="com.test.Driverscript">
+        <methods>
+          <include name="finish"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="sampleTest"/>
+          <include name="completeReporting"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.test.Driverscript -->
+    </classes>
+  </test> <!-- FF Test(failed) -->
+</suite> <!-- Failed suite [Sample] -->

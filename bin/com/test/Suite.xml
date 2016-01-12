@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample" parallel="tests">
+	<test verbose="1" name="FF Test">
+   		<parameter name="browser" value="FF"/>
+  			<classes>
+      			<class name="com.test.Driverscript"/>
+	    	</classes>
+  	</test> 
+  	<!-- <test verbose="1" name="Chrome Test">
+   		<parameter name="browser" value="Chrome"/>
+  			<classes>
+      			<class name="com.test.Driverscript"/>
+	    	</classes>
+  	</test> 
+  	 <test verbose="1" name="Internet Explorer Test">
+   		<parameter name="browser" value="IE"/>
+  			<classes>
+      			<class name="com.test.Driverscript"/>
+	    	</classes>
+  	</test> --> <!-- -->
+</suite> 
+
+
