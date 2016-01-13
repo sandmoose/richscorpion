@@ -1,2 +1,3 @@
 test-output/*
 resources/*
+!resources/properties/
